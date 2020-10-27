@@ -5,6 +5,7 @@
     background-color: whitesmoke;
 }
 
+/* Heading Section */
 
 h1 {
     font-family: 'Manrope', sans-serif;
@@ -52,7 +53,7 @@ nav ul {
 }
 
 .nav__ul .nav__item:nth-child(3) {
-    background-color: coral;
+    background-color: mediumaquamarine;
     width: 150px;
  }
 
@@ -73,10 +74,294 @@ nav ul {
 }
 
 .nav__link-3 {
-    background-color: coral;
+    background-color: mediumaquamarine;
 }
 
 .logo-container .logo-img {
     width: 200px;
     height: 200px;
+}
+
+/* Main / Feature Section */
+
+.main__section {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.wellness__feature {
+    display: flex;
+}
+
+.wellness__image, .wellness__description {
+    width: 50%;
+}
+
+.wellness__image {
+    text-align: center;
+}
+
+.wellness__image img {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+
+}
+
+.wellness__feature--header {
+    font-size: 25px;
+    font-family: 'Manrope', 'sans-serif';
+    color: cadetblue;
+    font-weight: lighter;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.wellness__feature--header:after {
+    display: block;
+    height: 2px;
+    background-color: cadetblue;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.wellness__feature--des p {
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 30px;
+    color: darkgrey;
+}
+
+/* Image Showcase */
+
+.wellness__yoga--showcase {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.showcase__item {
+  width:calc(100% / 3);
+  text-align: center;
+}
+
+.showcase__item img {
+    width: 110px;
+    height: 100px;
+}
+
+.showcase__item img:nth-child(1) {
+    height: 110px;
+}
+
+.showcase__item img:nth-child(3) {
+    height: 110px;
+}
+
+/* Yoga Description */
+
+
+
+.wellness__yoga--header {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Manrope', 'san-serif';
+    color: cadetblue;
+}
+
+.wellness__yoga--header:after {
+    display: block;
+    height: 2px;
+    background-color: cadetblue;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.wellness__yoga--des {
+    text-align: center;
+}
+
+.wellness__yoga--des p {
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 30px;
+    color: darkgrey;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Guided Meditation */
+
+.wellness__meditation--feature {
+    margin-top: 160px;
+    margin-left: 50px;
+}
+
+
+.wellness__meditation--img {
+    text-align: center;
+    width: calc(100% / 2);
+}
+
+.no-flex-1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.wellness__meditation--img img {
+    width: 180px;
+    height: 180px;
+}
+
+.wellness__meditation--header {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Manrope', 'san-serif';
+    color: cadetblue;
+    width: calc(100% / 2);
+    padding-top: 60px;
+}
+
+.wellness__meditation--header:after {
+    display: block;
+    height: 2px;
+    background-color: cadetblue;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.wellness__meditation--des {
+    display: block;
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 30px;
+    color: darkgrey;
+    padding-top: 25px;
+}
+
+
+/* Mindfulness */
+
+.wellness__mindful--feature {
+    margin-top: 160px;
+    margin-left: 50px;
+}
+
+
+.wellness__mindful--img {
+    text-align: center;
+    width: calc(100% / 2);
+}
+
+.no-flex-2 {
+    display: flex;
+}
+.wellness__mindful--img img {
+    width: 180px;
+    height: 180px;
+}
+
+.wellness__mindful--header {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Manrope', 'san-serif';
+    color: cadetblue;
+    width: calc(100% / 2);
+    padding-top: 60px;
+}
+
+.wellness__mindful--header:after {
+    display: block;
+    height: 2px;
+    background-color: cadetblue;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.wellness__mindful--des {
+    display: block;
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 30px;
+    color: darkgrey;
+    padding-top: 25px;
+}
+
+/* Benefits */
+
+.wellness__benefits--feature {
+    margin-top: 200px;
+}
+
+
+.wellness__benefits--header h2 {
+    font-family: 'Manrope', 'sans-serif';
+    color: cadetblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.wellness__benefits--header h3 {
+    font-family: 'Manrope', 'sans-serif';
+    color: cadetblue;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.wellness__benefits--item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+
+.noflex-3 {
+    width: calc(100% / 2);
+}
+
+.wellness__benefits--item_header {
+    display: inline-block;
+    font-family: 'Manrope', 'sans-serif';
+    font-size: 20px;
+    color: maroon;
+}
+
+.wellness__benefits--des {
+    font-family: 'Manrope', 'sans-serif';
+    color: black;
+}
+
+.wellness__benenfits--icon {
+    width: calc(100% / 3);
+}
+
+.wellness__benefits--icon img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+img.happy {
+    width: 97px;
+}
+
+img.relief {
+    width: 105px;
+    height: 105px;
+
 }
