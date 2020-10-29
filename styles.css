@@ -45,6 +45,11 @@ nav ul {
     height: auto;
     border-radius: 10%;
     background-color: cornflowerblue;
+    transition: all .5s ease;
+}
+
+.nav__ul .nav__item:hover {
+    transform: translateY(-3px);
 }
 
 .nav__ul .nav__item:nth-child(2) {
@@ -364,4 +369,152 @@ img.relief {
     width: 105px;
     height: 105px;
 
+}
+
+/* Newsletter  Section */
+
+.wellness__newsletter--feature {
+    margin-top: 100px;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+
+.wellness__newsletter--header {
+    font-family: 'Manrope', 'sans-serif';
+    color: cadetblue;
+    text-align: center;
+    font-size: 24px;
+}
+
+.feedback-input {
+  color: darkslategray;
+  font-family: 'Manrope', 'sans-serif';
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid cadetblue;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+label {
+    font-family: 'Manrope', 'sans-serif';
+    color: lightslategray;
+}
+
+.feedback-input:focus { border:2px solid mediumaquamarine; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+textarea::placeholder {
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+[type="submit"] {
+  font-family: 'Manrope', sans-serif;
+  width: 100%;
+  background: mediumaquamarine;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="submit"]:hover { background: cornflowerblue; }
+
+/* Footer */
+
+
+.wellness__footer--ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.wellness__footer--ul li a {
+    font-family: 'Manrope', 'sans-serif';
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer__item {
+    margin: 20px;
+}
+
+.wellness__copyright {
+    text-align: center;
+    font-family: 'Manrope', 'sans-serif';
+    color: lightslategray;
+    font-size: 12px;
+}
+
+/* Yoga Poses Page */
+
+.yoga__page {
+    background-color: salmon;
+}
+
+.yoga__pose--section {
+    display: flex; 
+    justify-content: center;
+}
+
+.yoga__pose--container {
+    width: 80vw;
+    height: 75vw;
+    border: 1px solid cadetblue;
+    text-align: center;
+}
+
+.yoga__pose--name {
+    font-family: 'Manrope';
+    font-size: 27px;
+    color: cadetblue;
+}
+
+.yoga__pose--sanskrit {
+    font-family: 'Manrope';
+    font-size: 18px;
+    color: slategray;
+    font-style: italic;
+}
+
+.yoga__pose--image {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.instruction__header {
+    display: inline-block;
+    font-family: 'Manrope', 'sans-serif';
+    color: cadetblue;
+    border-bottom: 1px solid cadetblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.instruction__description {
+    font-family: 'Manrope';
+    color: grey;
 }
