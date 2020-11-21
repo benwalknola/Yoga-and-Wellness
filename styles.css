@@ -470,9 +470,7 @@ textarea::placeholder {
 
 /* Yoga Poses Page */
 
-.yoga__page {
-    background-color: salmon;
-}
+
 
 .yoga__pose--section {
     display: flex; 
@@ -483,7 +481,10 @@ textarea::placeholder {
     width: 80vw;
     height: 75vw;
     border: 1px solid cadetblue;
+    border-radius: 5%;
     text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .yoga__pose--name {
@@ -505,6 +506,40 @@ textarea::placeholder {
     margin: 0 auto;
 }
 
+.yoga__pose--description {
+    font-family: 'Manrope', 'sans-serif';
+    font-size: 20px;
+    color: grey;
+
+}
+
+.yoga__difficulty {
+    margin-top: 20px;
+    font-family: 'Manrope', 'sans-serif';
+    font-size: 18px;
+    color: darkcyan;
+}
+
+.yoga__pose--instructions {
+    margin-top: 40px;
+}
+
+.instruction__button {
+    font-family: 'Manrope', 'sans-serif';
+    font-size: 14px;
+    color: white;
+    padding: 15px;
+    background-color: cadetblue;
+    cursor: pointer;
+    transition: all .1s ease;
+}
+
+.instruction__button:hover {
+    background-color: white;
+    color: cadetblue;
+    border: 1px solid black;
+}
+
 .instruction__header {
     display: inline-block;
     font-family: 'Manrope', 'sans-serif';
@@ -514,7 +549,44 @@ textarea::placeholder {
     margin-top: 20px;
 }
 
+
 .instruction__description {
     font-family: 'Manrope';
     color: grey;
 }
+
+/* Yoga Container Buttons */
+
+.wellness__button--container {
+    margin-bottom: 20px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+.left {
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid cadetblue;
+    border-radius: 50%;
+    float: left;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.right {
+    padding: 10px;
+    float: right;
+    height: 35px;
+    width: 35px;
+    border: 1px solid cadetblue;
+    border-radius: 50%;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+
+
