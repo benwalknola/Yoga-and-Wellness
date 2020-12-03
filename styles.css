@@ -588,5 +588,39 @@ textarea::placeholder {
     cursor: pointer;
 }
 
+/* Meditation Tones Section */
 
+.meditation__header--feature {
+    display: flex;
+    width: 100%;
+}
 
+.meditation__header--intro {
+    width: 50%;
+}
+
+.meditation__header--intro h3 {
+    text-align: center;
+    display: inline-block;
+    font-family: 'Manrope', 'sans-serif';
+    font-size: 30px;
+    color: cadetblue;
+}
+
+.meditation__header--intro p {
+    text-align: center;
+    font-family: 'Manrope', 'sans-serif';
+    color: darkgrey;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.meditation__header--img {
+    text-align: center;
+    width: 50%;
+}
+
+.meditation__header--img img {
+    height: 200px;
+    width: 200px;
+}
